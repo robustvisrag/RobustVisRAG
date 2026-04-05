@@ -35,6 +35,7 @@ Replace $subset with one of the dataset names listed below.
 ## Acknowledgements 
 This work builds upon the following open-source projects: 
 - VisRAG: Vision-based Retrieval-augmented Generation on Multi-modality Documents \[[GitHub](https://github.com/openbmb/visrag), [Paper](https://arxiv.org/abs/2410.10594)\], 
-- RVL-CDIP: Evaluation of Deep Convolutional Nets for Document Image Classification and Retrieval \[[Data](https://huggingface.co/datasets/aharley/rvl_cdip), [Paper](https://arxiv.org/abs/1502.07058)\] - UniRestore: Unified Perceptual and Task-Oriented Image Restoration Model Using Diffusion Prior \[[Synthetic Function](https://github.com/unirestore/UniRestore/tree/main/src/data/corruption), [Paper](https://arxiv.org/abs/2501.13134)\] 
+- RVL-CDIP: Evaluation of Deep Convolutional Nets for Document Image Classification and Retrieval \[[Data](https://huggingface.co/datasets/aharley/rvl_cdip), [Paper](https://arxiv.org/abs/1502.07058)\] 
+- UniRestore: Unified Perceptual and Task-Oriented Image Restoration Model Using Diffusion Prior \[[Synthetic Function](https://github.com/unirestore/UniRestore/tree/main/src/data/corruption), [Paper](https://arxiv.org/abs/2501.13134)\] 
 
 We sincerely thank the authors for their open-source contributions.
