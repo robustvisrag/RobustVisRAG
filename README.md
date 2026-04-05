@@ -4,7 +4,8 @@ Official repository for RobustVisRAG: Causality-Aware Vision-Based Retrieval-Aug
 [Project Page](https://robustvisrag.github.io/) | [Paper](https://arxiv.org/abs/2602.22013) | [Dataset](https://huggingface.co/collections/robustvisrag/distortion-visrag) | [Code](https://github.com/robustvisrag/RobustVisRAG)
 
 ## Updates
-- Feb 2025: ✨ RobustVisRAG was accepted into CVPR 2026!
+- April 2026: ✨ DVisRAG dataset was released publicly. 
+- February 2026: ✨ RobustVisRAG was accepted into CVPR 2026!
 
 ## RobustVisRAG
 RobustVisRAG enhances Vision-based Retrieval-Augmented Generation (VisRAG) under visual degradations through causality-guided semantic–degradation disentanglement. By explicitly separating degradation and semantic factors inside the vision encoder, our framework suppresses degradation-induced bias while preserving task-relevant representations — without introducing additional inference cost.
