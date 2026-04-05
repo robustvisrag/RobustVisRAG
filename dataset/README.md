@@ -10,6 +10,7 @@ The full collection is available on [Hugging Face](https://huggingface.co/collec
 You can load each subset with the following code:
 ```
 from datasets import load_dataset
+
 repo_id = "robustvisrag/$subset"
 corpus  = load_dataset(repo_id, name="corpus", split="train")
 queries = load_dataset(repo_id, name="queries", split="train")
@@ -19,17 +20,17 @@ Replace $subset with one of the dataset names listed below.
 
 - Available Subsets
     - Synthetic Degradation Dataset (12 degradations)
-        1. robustvisrag/DVisRAG-Ret-Test-Synthetic-ArxivQA
-        2. robustvisrag/DVisRAG-Ret-Test-Synthetic-ChartQA
-        3. robustvisrag/DVisRAG-Ret-Test-Synthetic-MP-DocVQA
-        4. robustvisrag/DVisRAG-Ret-Test-Synthetic-InfoVQA
-        5. robustvisrag/DVisRAG-Ret-Test-Synthetic-PlotQA
-        6. robustvisrag/DVisRAG-Ret-Test-Synthetic-SlideVQA
+        - robustvisrag/DVisRAG-Ret-Test-Synthetic-ArxivQA
+        - robustvisrag/DVisRAG-Ret-Test-Synthetic-ChartQA
+        - robustvisrag/DVisRAG-Ret-Test-Synthetic-MP-DocVQA
+        - robustvisrag/DVisRAG-Ret-Test-Synthetic-InfoVQA
+        - robustvisrag/DVisRAG-Ret-Test-Synthetic-PlotQA
+        - robustvisrag/DVisRAG-Ret-Test-Synthetic-SlideVQA
 
     - Real-World Degradation Dataset (5 degradations)
-        1. robustvisrag/DVisRAG-Ret-Test-RealWorld-ArxivQA
-        2. robustvisrag/DVisRAG-Ret-Test-RealWorld-MP-DocVQA
-        3. robustvisrag/DVisRAG-Ret-Test-RealWorld-RVL-CDIP
+        - robustvisrag/DVisRAG-Ret-Test-RealWorld-ArxivQA
+        - robustvisrag/DVisRAG-Ret-Test-RealWorld-MP-DocVQA
+        - robustvisrag/DVisRAG-Ret-Test-RealWorld-RVL-CDIP
 
 ## Acknowledgements 
 This work builds upon the following open-source projects: 
