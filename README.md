@@ -10,6 +10,8 @@ Official repository for RobustVisRAG: Causality-Aware Vision-Based Retrieval-Aug
 ## RobustVisRAG
 RobustVisRAG enhances Vision-based Retrieval-Augmented Generation (VisRAG) under visual degradations through causality-guided semantic–degradation disentanglement. By explicitly separating degradation and semantic factors inside the vision encoder, our framework suppresses degradation-induced bias while preserving task-relevant representations — without introducing additional inference cost.
 
+<img width="1096" alt="DVisRAG overview" src="asset/RobustVisRAG.png">
+
 ## Reference
 If you find this work useful, please consider citing us!
 ```

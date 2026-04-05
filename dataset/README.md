@@ -3,7 +3,7 @@ DVisRAG is a document visual retrieval benchmark designed to evaluate robustness
 - 3,607 synthetic-degradation test samples
 - 1,891 real-world degradation test samples
 The benchmark covers seven major document VQA domains, summarized below:
-<img width="1096" alt="DVisRAG overview" src="VDisRAG.png">
+<img width="1096" alt="DVisRAG overview" src="../asset/VDisRAG.png">
 
 ## Dataset Access
 The full collection is available on [Hugging Face](https://huggingface.co/collections/robustvisrag/distortion-visrag).
